@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nishi Patel Portfolio</title>
+</head>
+<body>
+     <!-- navbar section start -->
+   <section id="navbar">
+    <div class="logo.container">
+        <span class="logo">NP</span>
+    </div>
+    <div class="nav-links">
+        <ol class="nav-list">
+            <li class="nav-link-items">About</li>
+            <li class="nav-link-items">Education</li>
+            <li class="nav-link-items">Projects</li>
+            <li class="nav-link-items">Contact</li>
+        </ol>
+        <a href="./Nishi resume.PDF" class="btn">Resume</a>
+    </div>
+   </section>
+    <!-- navbar section end -->
+
+    <!-- Hero section start -->
+    <section id="hero">
+        <!-- Social media div start -->
+        <div class="social-icon">
+            <a href="https://github.com/nishi2003">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://instagrem.com/nishi20_03">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nishi-patel-7b7701241/">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://codepen.io/Nishi2003">
+                <i class="fa-brands fa-codepen"></i>
+            </a>
+            <div class="vl"></div>
+        </div>
+        <!-- social media div end -->
+
+        <!-- About section content start -->
+        <div id="hero-section-content">
+            <div class="name">
+                Hi.My Name is
+            </div>
+            <h1>
+                Nishi Patel.<br>
+            <span>
+                I build this things for the web.
+            </span>
+        </h1>
+            <!-- <div class="intro-text">
+                I am a student of Government Engineering College.Currently i am pursuing my bachlor's in computer engineering.I am 20 year old.I live in Mahesana.
+            </div> -->
+            <a href="./Nishi resume.PDF" class="btn">Check out my Resume.</a>
+        </div>
+
+        <!-- Email div start -->
+        <div class="email-section">
+            <div class="email" href="" mail to: nishipatel20@gmail.com>
+                nishipatel20@gmail.com
+            </div>
+            <div class="vl"></div>
+        </div>
+        <!-- Email div end -->
+    </section>
+    <!-- Hero section end -->
+
+    <!-- About section start -->
+    <section id="about">
+        <div class="about-text">
+            <h1 class="section-title">
+                <span>01.</span> About me
+                <span class="h1"></span>
+            </h1>
+            <p>
+                Hello! My name is <span> Nishi Patel. </span>  I am a student of Government Engineering College.Currently i am pursuing my bachlor's in computer engineering.I am 20 year old.I live in Mahesana.
+            </p>
+        </div>
+           <!-- About section end -->
+
+            <!-- About Img div start-->
+           <div class="about-img blur">
+            <div class="about-img-container">
+                <img class="actual-img" src="./img/photo.jpg" alt="" width="230px">
+                <div class="img-filter"></div>
+                <div class="border-img"></div>
+            </div>
+           </div>
+            <!-- About Img div End-->
+    </section>
+
+    <!-- Education section start -->
+    <section id="education-section">
+        <div class="education-class">
+            <h1 class="education-title">
+                <span>02.</span>Education 
+                <span class="h1"></span>
+            </h1>
+
+            <div class="education-container">
+                <div class="education-item-container font-mono">
+                    <button id="B.E" class="education-item" onclick="updatework(this.id)">B.E</button>
+                    <button id="HSC" class="education-item"
+                    onclick="updatework(this.id)">HSC</button>
+                    <button id="SSC" class="education-item" onclick="updateWork(this.id)">SSC</button>
+                </div>
+                <div class="education-description">
+                    <div class="edu-role" id="role">
+                        Currently I am pursuing computer enginnering at government engineering college, Gandhinagar.<span>@B.E</span>
+                    </div>
+                    <div class="edu-role" id="role">
+                        I completed my 11th and 12th grades in shree Nalanda vidhyavihar school . In my 12th grade, I too received an 82%, which is 96.66%Pr.<span>@HSC</span>
+                    </div>
+                    <div class="edu-role" id="role" >
+                        I completed my school till 10th std in Urban vidhyalaya school. In my 10th grade, I too received an 88.33%, which is 98.68%Pr.<span>@SSC</span>
+                    </div>
+                    <!-- <div class="education-description" id="desc">
+
+                        <ul>
+                            <li>
+                                Currently I am pursuing computer enginnering at government engineering college, Gandhinagar.
+                            </li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- project section start -->
+    <section id="project">
+        <div class="about-text">
+            <h1 class="section-title">
+                <span>03.</span>Projects<span class="h1"></span>
+            </h1>
+        </div>
+        <div id="all-project">
+            <div class="project-card">
+                <div class="project-img">
+                    <video src="./img/calculator.mp4" alt="" width="550px" sheight="350px" data-aos="fade-right"></video>
+                </div>
+                <div class="project-des">
+                    <div class="dis">This is a responsive calculator.We can do add,sub,mul,div,mod all mathamatics expression.</div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <video src="./img/random_password.mp4" alt="" width="550px" sheight="350px" data-aos="fade-right"></video>
+                </div>
+                <div class="project-des">
+                    <div class="dis">This is a responsive website.We can generate random password with the help of HTML,CSS and Javascript languages.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <video src="./img/tic_tac_toe.mp4" alt="" width="550px" sheight="350px" data-aos="fade-right"></video>
+            </div>
+            <div class="project-des">
+                <div class="dis">This is a responsive tic tac toe game.We  with play as well and it creates with the help of HTML,CSS and Javascript languages.</div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Get in touch section start -->
+    <section class="get-in-touch" data-aos="zoom-in">
+        <div class="">
+            <!-- <h3 class="get-in-touch-secondary-hadding">
+                <span>04.</span>Contact Me<span class="h3"></span>
+            </h3> -->
+            <div class="about-text">
+                <h1 class="contact-title">
+                    <span>04.</span>Contact Me<span class="h1"></span>
+                </h1>
+            </div>
+                <div class="get-in-touch-btn">
+                    <a href="mailto:nishipatel20@gmail.com" class="btn">Mail ID</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Design & built by Nishi Patel with 💙
+    </footer>
+    <!-- <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script> -->
+</body>
+</html>
